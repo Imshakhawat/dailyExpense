@@ -1,0 +1,47 @@
+.container{
+    padding: 0;
+    margin: 0;
+    background-color:blue ;
+}
+
+.flexcontainer {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+.flexcontainer .box {
+    padding: 0;
+    margin: 0;
+
+    border-radius: 10px;
+    background-color: rgb(10, 10, 245);
+    align-content: center;
+    min-height: auto;
+    overflow: hidden;
+    text-align: center;
+
+
+
+
+
+}
+.flexcontainer .img{
+    width:  100px;
+    height:  100px;
+    
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

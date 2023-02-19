@@ -1,0 +1,48 @@
+.containter{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+}
+.header{
+    display: flex;
+    height: 70px;
+    
+    
+}
+
+
+.nav{
+    background: #7979d4;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    
+}
+
+
+.signup{
+    background-color: #b4ee99;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    background-color: #f6957c;
+    height: auto;
+    width: auto;
+
+}
+.elements{
+    background-color: #fd5cdf;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    border: 15px solid black;
+}
+
+.footer{
+    background-color: aqua;
+}
